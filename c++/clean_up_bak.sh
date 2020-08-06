@@ -1,6 +1,5 @@
 #!/bin/sh
-#remove_list=`find -type f ! -path "*/.vscode/*" | grep -v "\.cpp\|\.sh\|\.h"`
-remove_list=`find -type f -name "*.exe" -o -name "*.o"`
+remove_list=`find -type f ! -path "*/.vscode/*" | grep -v "\.cpp\|\.sh\|\.h"`
 if [ -z "$remove_list" ]; then
 	echo "there is no remove_list"
 	exit 0

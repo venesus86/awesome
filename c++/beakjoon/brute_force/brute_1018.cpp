@@ -1,5 +1,7 @@
 /*
+White, Black이 반복되는 체스판 만들기
 첫째 줄에 지민이가 다시 칠해야 하는 정사각형 개수의 최솟값을 출력한다.
+
 input:      
 10 13
 BBBBBBBBWBWBW
@@ -13,6 +15,10 @@ BBBBBBBBBWBWB
 WWWWWWWWWWBWB
 WWWWWWWWWWBWB
 
+output:
+12
+
+반례:
 8 8
 WBWBWBWB
 BWBWBWBW
@@ -32,9 +38,6 @@ WBWBWBWB
 BWBWBWBW
 WBWBWBWB
 BWBWBWBW
-
-output:
-12
 */
 
 #include <iostream>
